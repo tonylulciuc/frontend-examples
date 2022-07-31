@@ -1,0 +1,10 @@
+<div ng-controller="PokeListController">
+    <ul class="list-group">
+        <li ng-repeat="s in species track by $index"
+            class="list-group-item list-group-item-action"
+            ng-class="{'active': $index === selected}"
+            ng-click="onListItemClick($index)">
+            {{ s.name.toUpperCase() }}
+        </li>
+    </ul>
+</div>

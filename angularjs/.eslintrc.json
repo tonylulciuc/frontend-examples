@@ -1,0 +1,18 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "airbnb-base"
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "no-undef": "off",
+        "no-unused-vars": "warn",
+        "max-len": ["warn", 120],
+        "no-return-assign": "off"
+    }
+}
